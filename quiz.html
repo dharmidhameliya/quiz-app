@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up Window</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <button class="openPopupBtn">Start Quiz</button>
+    <!-- Pop-up Window -->
+    <div class="popup-overlay hidden" id="popupOverlay">
+        <div class="popup-content">
+            <div class="popup-header">
+                Started
+            </div>
+            <div class="popup-body">
+               Here is your Quiz! Best of luck.
+            </div>
+            <div class="btn-question-number">
+                <button>Question 1/25</button>
+            </div>
+            <div class="question">
+                <p>Who is a developer of fractals?</p>
+            </div>
+            <div class="options">
+                <input type="radio" name="option" value="A. Dr.Benoit MendalBrot"required>
+                <label>A. Dr.Benoit MendalBrot</label><br>
+                <input type="radio" name="option"  value="B. Dr.Williams">
+                <label>B. Dr.Williams</label><br>
+                <input type="radio" name="option" valie="C. Dr.jonas schmetmann">
+                <label>C. Dr.jonas schmetmann</label><br>
+                <input type="radio" name="option" value="D. Dr.khushal ahir">
+                <label>D. Dr.khushal ahir</label><br>
+            </div>
+            <button class="close-btn" id="closePopupBtn">Submit Quiz</button>
+            <div class="time">
+                <p>Time:</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
